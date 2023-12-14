@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron:  '*/05 * * * 1-5'
+    - cron:  '00 * * * 1-5'
 
 name: Version Checker
 
