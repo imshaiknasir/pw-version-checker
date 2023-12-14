@@ -1,7 +1,5 @@
 on:
-  workflow_dispatch:
   schedule:
-    # Run at 12:05 Monday - Fridays
     - cron:  '55 * * * 1-5'
 
 name: Version Checker
